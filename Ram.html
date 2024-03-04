@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Family Flowchart</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+     background-image: url('b1.png');
+  }
+
+ .popup {
+    position: absolute;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: none;
+  }
+ 
+  h2 {
+  margin: 0; /* Remove default margin */
+  padding: 10px; /* Add padding for spacing */
+  font-size: 16px; /* Adjust font size as needed */
+  text-align: center;
+}
+
+  h4 {
+  margin: 0; /* Remove default margin */
+  padding: 10px; /* Add padding for spacing */
+  font-size: 16px; /* Adjust font size as needed */
+  color: white;
+}
+
+ h3 {
+    cursor: pointer;
+    color: blue;
+  }
+
+  .container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100vh;
+    overflow-x: auto;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    
+  }
+
+  .flowchart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .person {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 200px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+  }
+
+  .line-vertical {
+    width: 2px;
+    height: 50px;
+    background-color: #000;
+    margin: 0 20px;
+  }
+  .line-vertical1 {
+    width: 2px;
+    height: 50px;
+    background-color: #000;
+    margin: 0 100px;
+  }
+  .line-horizontal {
+    width: 50px; /* Adjust the width as needed */
+    height: 2px;
+    background-color: #000;
+    margin: 20px 0;
+  }
+ .line-horizontal1 {
+    width: 400px; /* Adjust the width as needed */
+    height: 2px;
+    background-color: #000;
+    margin: 20px 0;
+  }
+ .line-vertical2 {
+    width: 2px; /* Adjust the width as needed */
+    height: 70px;
+    background-color: #000;
+     margin-left: 160px;
+  }
+.line-horizontal2 {
+    width: 50px; /* Adjust the width as needed */
+    height: 2px;
+    background-color: white;
+    margin: 20px 0;
+  }
+
+  .siblings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+</style>
+</head>
+<body>
+
+
+<div class="container">
+  <div class="flowchart">
+
+
+    <div class="person">
+      <h2>Kashyapa Aditi</h2>
+      
+    </div>
+
+
+    <div class="line-vertical"></div>
+
+    <div class="person">
+      <h2>Surya Vivasvat</h2>
+    </div>
+
+
+    <div class="line-vertical"></div>
+
+    <div class="person">
+      <h3 onmouseover="showPopup(event)" onmouseout="hidePopup()">Vaivasvata Manu</h3>
+      <div id="0" class="popup">
+     <img src="vm.jpeg"><br>
+  The seventh Manu, who is the son of Vivasvan, is known as Sraddhadeva (or satyavrata) or Vaivasvat (son of Vivasvan). He has ten sons, named Ikshvaku, Nabhaga, Dhrsta, Saryati, Narisyanta, Dista (Nabhanedista), Tarusa (Karusha), Prsadhra, Vasuman (Pramshu) and Ila (Sudyumna). In this manvantara, or reign of Manu, among the demigods are the Adityas, Vasus, Rudras, Visvedevas, Maruts, Asvini-kumaras and Rbhus. The king of heaven, Indra, is known as Purandara, and the seven sages are known as Jamadagni, Kashyapa, Atri, Vashista, Gautama, Agastya and Bharadwaja.
+</div>
+    </div>
+
+
+    <div class="line-vertical"></div>
+
+    <div class="person">
+       <h3 onmouseover="showPopup(event)" onmouseout="hidePopup()">Ikshvaku</h3>
+      <div id="x" class="popup">
+Ikshvaku (Sanskrit Ikṣvāku; Pāli: Okkāka) is a legendary king in Hindu mythology. He is described to be the first king of the Kosala kingdom, and was one of the ten sons of Shraddhadeva Manu, the first man on the earth. He was the founder and first king of the Ikshvaku dynasty, also known as the Suryavamsha, in the kingdom of Kosala, which also historically existed in ancient India. He had a hundred sons,among whom the eldest was Vikukshi. Another son of Ikshvaku's, named Nimi, founded the Kingdom of the Videhas Rama, Mahavira, and the Buddha are also stated to have belonged to the Suryavamsha or Ikshvaku dynasty.
+    </div>
+</div>
+
+
+    <div class="line-vertical"></div>
+
+    <div class="person">
+      <h2>Vikuksi Sasada</h2>
+    </div>
+
+    <div class="line-vertical"></div>
+
+    <div class="person">
+      <h2>kakutstha</h2>
+    </div>
+
+    <div class="line-vertical"></div>
+
+    <div class="person">
+      <h2>Suryodhana Anena</h2>
+   
+    </div>
+
+    <div class="line-vertical"></div>
+
+    <div class="person">
+     
+   <h3 onmouseover="showPopup(event)" onmouseout="hidePopup()">Prithu</h3>
+    <div id="y" class="popup">
+   <img src="p.jpg"><br>
+Prithu (Sanskrit: पृथु, IAST: Pṛthu, lit. "large, great, important, abundant"), also called Pruthu, Prithi and Prithu Vainya ("Prithu — the son of Vena"), is a sovereign (chakravarti) in Hinduism. He is an avatar of the god Vishnu.
+
+Prithu is "celebrated as the first consecrated king, from whom the earth received her (Sanskrit) name, Prithvi."He is mainly associated with the legend of his chasing the earth goddess, Prithvi, who fled in the form of a cow and eventually agreed to yield her milk as the world's grain and vegetation. The epic Mahabharata and the Vishnu Purana describe him as a part-avatar of Vishnu.
+    </div>
+    </div>
+
+    <div class="line-vertical"></div>
+
+    <div class="person">
+      <h2>Visvaga Asva</h2>
+    </div>
+
+    <div class="line-vertical"></div>
+
+    <div class="person">
+      <h2>Indu Asva</h2>
+    </div>
+
+    <div class="line-vertical"></div>
+
+    <div class="person">
+      <h2>Juvanasva I</h2>
+    </div>
+
+    <div class="line-vertical"></div>
+
+    <div class="person">
+      <h2>Sravasta</h2>
+    </div>
+
+    <div class="line-vertical"></div>
+
+    <div class="person">
+      <h2>Brihadasva</h2>
+    </div>
+
+    <div class="line-vertical"></div>
+
+    <div class="person">
+      <h2>Kuvalasva Dhundhumara</h2>
+    </div>
+    
+    <div class="line-vertical"></div>
+
+    <div class="line-horizontal1"></div>
+
+    <div class="siblings">
+     <div class="line-vertical1"></div>
+     <div class="line-vertical1"></div>
+     <div class="line-vertical1"></div>
+    </div>
+    <div class="siblings">
+      <div class="person">
+        
+        <h2>Danda</h2>
+      </div>
+      <div class="line-horizontal"></div>
+      <div class="person">
+        
+        <h2>Dridhasva</h2>
+      </div>
+      <div class="line-horizontal"></div>
+      <div class="person">
+        <h2>Kapilasva</h2>
+     
+      </div>
+</div>
+<div class="line-vertical"></div>
+      <div class="person">
+  <h2>Pramaoda</h2>
+</div>
+<div class="line-vertical"></div>
+<div class="person">
+  <h2>Haryasva</h2>
+</div>
+<div class="line-vertical"></div>
+<div class="person">
+  <h2>Nikumbha</h2>
+</div>
+<div class="line-vertical"></div>
+<div class="person">
+  <h2>Samhatasva</h2>
+</div>
+<div class="line-vertical"></div>
+<div class="siblings">
+  <div class="person">
+    <h2>Akritasva Krisasva</h2>
+  </div>
+  
+  <div class="line-horizontal"></div>
+  <div class="person">
+    <h2>Ranasva</h2>
+  </div>
+</div>
+<div class="siblings">
+ <div class="line-vertical1"></div>
+ <div class="line-vertical1"></div>
+</div>
+<div class="siblings">
+<div class="person">
+  <h2>Yuvanasya II</h2>
+</div>
+
+
+
+<div class="person">
+  <h2>Mandhatri</h2>
+</div>
+</div>
+
+
+<div class="line-vertical2"></div>
+
+
+<div class=siblings">
+
+<div class="line-horizontal1"></div>
+</div>
+
+  <div class= "siblings">
+     <div class="line-vertical1"></div>
+     <div class="line-vertical"></div>
+     <div class="line-vertical1"></div>
+     <div class="line-vertical"></div>
+    
+  </div>
+  <div class="siblings">
+
+ <div class="person">
+      <h2>Muchukunda</h2>
+    </div>
+ <div class="person">
+      <h2>Purukutsa</h2>
+    </div>
+
+ <div class="person">
+      <h2>Dharmasena</h2>
+    </div>
+
+ <div class="person">
+      <h2>Satrojit</h2>
+    </div>
+ 
+
+</div>
+    <div class="line-vertical"></div>
+    <div class="person">
+      <h2>Vasuda Trasadasyu</h2>
+    </div>
+    <div class="line-vertical"></div>
+    <div class="person">
+      <h2>Samshruti</h2>
+    </div>
+    <div class="line-vertical"></div>
+    <div class="person">
+      <h2>Tridhanavan</h2>
+    </div>
+    <div class="line-vertical"></div>
+    <div class="person">
+      <h2>Trayyaruna</h2>
+    </div>
+    <div class="line-vertical"></div>
+    <div class="person">
+      <h2>Satyavrata</h2>
+    </div>
+    <div class="line-vertical"></div>
+
+
+    <div class="person">
+     
+<h3 onmouseover="showPopup(event)" onmouseout="hidePopup()">Satyavratha Trisanku</h3>
+      <div id="0" class="popup">
+     <img src="st.jpg" width="300" 
+     height="300" /><br>
+  
+Trishanku, a virtuous king of the Ikshvaku dynasty, seeks to ascend to heaven in his own body but faces rejection from the chief priest Vasishtha and his sons. Cursed to become a chandala, he finds refuge in Vishvamitra, who performs the sacrifice for him. Despite reaching heaven, Trishanku is expelled by Indra due to his impurity. Vishvamitra, angered, creates a new realm for Trishanku among stars and deities, defying Indra's authority.
+</div>
+    </div>
+
+
+
+    <div class="line-vertical"></div>
+    <div class="person">
+      <h3 onmouseover="showPopup(event)" onmouseout="hidePopup()">Harishchadra</h3>
+      <div id="0" class="popup">
+     <img src="hc.jpg" width="300" 
+     height="300" /><br>
+  
+
+King Harishchandra, renowned in Hindu mythology, is celebrated for his unwavering commitment to truth and righteousness. He faced immense trials, including selling his wife and son and working as a cremation ground keeper, to honor his promise to the sage Vishwamitra. Despite enduring severe hardships, his integrity never wavered. Ultimately, his integrity was rewarded, and he was reunited with his family and restored to his kingdom, embodying the timeless virtue of truthfulness and integrity.
+</div>
+    </div>
+
+    <div class="line-vertical"></div>
+    <div class="person">
+      <h2>Rohita</h2>
+    </div>
+    <div class="line-vertical"></div>
+    <div class="person">
+      <h2>Vrika</h2>
+    </div>
+    <div class="line-vertical"></div>
+    <div class="person">
+      <h2>Bahu</h2>
+    </div>
+    <div class="line-vertical"></div>
+
+    <div class="person">
+         <h3 onmouseover="showPopup(event)" onmouseout="hidePopup()">Sagara</h3>
+      <div id="0" class="popup">
+     <img src="sg.png" width="300" 
+     height="300" /><br>
+  
+
+King Sagara is a prominent figure in the Ramayana, known as the ancestor of Lord Rama. He is celebrated for his valor and is remembered for his quest to retrieve the sacrificial horse stolen by the demon Kapilashwa. 
+</div>
+    </div>
+
+ 
+
+
+    <div class="line-vertical"></div>
+
+    <div class="person">
+    
+<h3 onmouseover="showPopup(event)" onmouseout="hidePopup()">Asamanjas</h3>
+      <div id="0" class="popup">
+    
+     
+  
+
+Asamanjas, one of King Sagara's sons, is depicted as a reckless and unruly prince in the Ramayana. He gained notoriety for his cruel and impulsive behavior, such as attempting to drown children in the palace. His actions troubled his father, Sagara, and led to his banishment from the kingdom.
+</div>
+    </div>
+
+
+    <div class="line-vertical"></div>
+    <div class="person">
+      
+<h3 onmouseover="showPopup(event)" onmouseout="hidePopup()">Anshuman</h3>
+      <div id="0" class="popup">
+     <img src="am.jpg" width="300" 
+     height="300" /><br>
+  
+
+Anshuman, another son of King Sagara, plays a significant role in the Ramayana. He follows his ancestor's footsteps by undertaking a noble quest to retrieve the sacred horse, ultimately leading to the discovery of the long-lost sons of Sagara and the fulfillment of his family's destiny.
+</div>
+    </div>
+
+    <div class="line-vertical"></div>
+    <div class="person">
+    
+<h3 onmouseover="showPopup(event)" onmouseout="hidePopup()">Dilipa I</h3>
+      <div id="0" class="popup">
+     <img src="dp.jpeg" width="300" 
+     height="300" /><br>
+  
+
+Dilipa I, the son of Asamanjas and the grandson of King Sagara, is known for his righteousness and devotion to dharma. He ascends the throne after restoring order to the kingdom following the turbulent reign of his father. Dilipa I's reign is characterized by peace, prosperity, and adherence to moral principles, contributing to the legacy of his illustrious lineage.
+</div>
+    </div>
+
+
+    <div class="line-vertical"></div>
+
+ <div class="person">
+    
+<h3 onmouseover="showPopup(event)" onmouseout="hidePopup()">Bhagiratha</h3>
+      <div id="0" class="popup">
+     <img src="bhag.png" width="300" 
+     height="300" /><br>
+  
+
+
+Bhagiratha, a descendant of King Sagara, is renowned in Hindu mythology for his relentless pursuit to bring the divine river Ganga down to earth. Motivated by a desire to liberate the souls of his ancestors, who were cursed by Sage Kapila, Bhagiratha undertakes rigorous penance and pleases Lord Brahma. With Brahma's blessings, he persuades Goddess Ganga to descend from the heavens. To contain her mighty force, Bhagiratha invokes Lord Shiva, who agrees to receive Ganga's waters in his matted locks. Bhagiratha's unwavering determination and devotion culminate in the successful descent of Ganga, which not only liberates his ancestors but also enriches the earth with her divine presence, symbolizing the triumph of perseverance and righteousness.
+</div>
+
+    <div class="line-vertical"></div>
+    </div>
+    <div class="person">
+      <h2>Nabhaga</h2>
+    </div>
+    <div class="line-vertical"></div>
+    <div class="person">
+      <h2>Ambarisa</h2>
+    </div>
+    <div class="line-vertical"></div>
+    <div class="person">
+      <h2>Sindhudvipa</h2>
+    </div>
+    <div class="line-vertical"></div>
+    <div class="person">
+      <h2>Ayutayus</h2>
+    </div>
+    <div class="line-vertical"></div>
+    <div class="person">
+      <h2>Rituparna</h2>
+    </div>
+    <div class="line-vertical"></div>
+    <div class="person">
+      <h2>Kalmasapada</h2>
+    </div>
+    <div class="line-vertical"></div>
+    <div class="person">
+      <h2>Sarvakarman</h2>
+    </div>
+    <div class="line-vertical"></div>
+    <div class="person">
+      <h2>Anaranya</h2>
+    </div>
+    <div class="line-vertical"></div>
+    <div class="person">
+      <h2>Nighna</h2>
+    </div>
+<div class="line-vertical"></div>
+<div class="siblings">
+    
+    <div class="person">
+      <h2>Anamitra</h2>
+    </div>
+  
+<div class="line-horizontal"></div>
+    <div class="person">
+      <h2>Dilipa II</h2>
+    </div>
+
+</div>
+<div class="line-vertical2"></div>
+
+
+<div class="person">
+    <div class="person">
+      <h3 onmouseover="showPopup(event)" onmouseout="hidePopup()">Raghu</h3>
+      <div id="0" class="popup">
+     <img src="rg.jpeg" width="300" 
+     height="300" /><br>
+  
+
+King Raghu, hailing from the illustrious Ikshvaku dynasty, is renowned for his unparalleled valor, virtue, and adherence to dharma. His reign is often depicted as a golden era marked by prosperity, justice, and harmony, serving as an inspiration for future generations to uphold righteousness.
+</div>
+    </div>
+
+
+<div class="line-vertical1"></div>
+
+
+    <div class="person">
+      <h2>Aja</h2>
+    </div>
+<div class="line-vertical1"></div>
+
+
+    <div class="person">
+      <h3 onmouseover="showPopup(event)" onmouseout="hidePopup()">Dasaratha</h3>
+      <div id="0" class="popup">
+     <img src="ds.jpeg" width="300" 
+     height="300" /><br>
+  
+
+King Dasaratha of Ayodhya is depicted as a wise and just ruler, known for his love for his sons, especially Rama. His tragic dilemma, torn between his promise to Queen Kaikeyi and his affection for Rama, serves as a poignant moment in the Ramayana, ultimately leading to Rama's exile and Dasaratha's untimely demise.
+</div>
+    </div>
+<div class="line-vertical1"></div>
+    <div class="person">
+      <h3 onmouseover="showPopup(event)" onmouseout="hidePopup()">Rama</h3>
+      <div id="0" class="popup">
+     <img src="Ram.jpeg" width="200" 
+     height="300" /><br>
+  
+
+
+Lord Rama, the epitome of righteousness and duty, embarks on a journey of exile with his wife Sita and brother Lakshmana, following his father's decree. Despite facing numerous trials, including Sita's abduction by Ravana, Rama remains unwavering in his commitment to uphold truth and righteousness. Through his humility, patience, and valor, Rama emerges victorious in the battle against Ravana, restoring peace and dharma to the universe. His reunion with Sita and their return to Ayodhya mark the triumph of good over evil, and Rama's reign as king is celebrated for its justice, prosperity, and harmony.
+</div>
+    </div>
+<div class="line-vertical1"></div>
+
+<div class="siblings">
+    
+    <div class="person">
+     <h3 onmouseover="showPopup(event)" onmouseout="hidePopup()">Lava</h3>
+      <div id="0" class="popup">
+     <img src="lav.jpeg" width="300" 
+     height="300" /><br>
+  
+
+Lav, one of the twin sons of Lord Rama and Sita, is depicted as a valiant warrior and a devout follower of dharma. Raised in the hermitage of sage Valmiki during Rama's exile, Lav receives rigorous training in warfare and wisdom. His loyalty to his family and his commitment to upholding righteousness are showcased during his encounters with Rama and in his participation in battles.
+</div>
+    </div>
+  
+<div class="line-horizontal"></div>
+    <div class="person">
+      <h3 onmouseover="showPopup(event)" onmouseout="hidePopup()">Kusha</h3>
+      <div id="0" class="popup">
+     <img src="kush.jpeg" width="300" 
+     height="300" /><br>
+  
+
+ Kush, the other twin son of Lord Rama and Sita, shares similar traits with his brother Lav. Endowed with valor and intelligence, Kush is trained by sage Valmiki in various martial and scholarly disciplines. His devotion to his parents, especially his mother Sita, and his unwavering dedication to his duties as a prince and warrior demonstrate his exemplary character and adherence to dharma.
+</div>
+    </div>
+
+</div>
+
+</div>
+<img src ="ram1.jpeg">
+<h4>Understanding the Ramayana, an ancient epic written by the sage Valmiki, can indeed provide profound guidance and solace during difficult times. The Ramayana holds immense importance in Hindu culture and spirituality, serving as a timeless source of wisdom, inspiration, and moral teachings.
+
+The epic narrates the divine journey of Lord Rama, highlighting the values of righteousness, devotion, and resilience. Rama's unwavering commitment to his duty, even amidst immense challenges and personal sacrifices, serves as a guiding light for seekers of truth and righteousness.
+
+Moreover, delving into the lineage of the Suryavamsha dynasty, as described in sources like Bhart Gyan on Facebook, offers insights into the rich historical and mythological background of the Ramayana. Understanding the lineage of Lord Rama and his ancestors, including Surya Vivasvat, enhances our appreciation of the epic's narrative and its significance in Hindu mythology.
+
+As you seek solace and divine guidance in challenging times, exploring the Ramayana and its teachings can deepen your spiritual connection and provide profound insights into navigating life's trials with courage, faith, and perseverance. The timeless wisdom and moral lessons found in the Ramayana continue to inspire millions worldwide, making it a cherished and revered epic for generations to come.</h4>
+
+  </div>
+</div>
+
+<script>
+function showPopup(event) {
+    if (event.target.tagName === 'H3') {
+      const popup = event.target.nextElementSibling;
+      popup.style.display = "block";
+      popup.style.left = event.clientX + "px";
+      popup.style.top = event.clientY + "px";
+    }
+  }
+
+  // Function to hide the popup
+  function hidePopup(event) {
+    if (event.target.tagName === 'H3') {
+      const popup = event.target.nextElementSibling;
+      popup.style.display = "none";
+    }
+  }
+
+  // Attach event listeners to the container
+  const container = document.querySelector('.container');
+  container.addEventListener('mouseover', showPopup);
+  container.addEventListener('mouseout', hidePopup);
+</script>
+
+</body>
+</html>
+
+
+

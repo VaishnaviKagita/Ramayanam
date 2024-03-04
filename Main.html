@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Welcome to the history of Ancestors</title>
+<style>
+  body {
+    font-family: Arial, sans-serif; /* Replace with your specific font, if available */
+    margin: 0;
+    padding: 0;
+    background-image: url('bgm12.gif'); /* Replace with your actual image URL */
+    background-size: cover;
+    background-position: center;
+    color: white; /* This will affect the text color; adjust based on your background */
+    position: relative;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.01); /* Adjust the last value (0.5) for opacity */
+    z-index: 1;
+  }
+
+  .container {
+    position: relative;
+    z-index: 2; /* Ensure that the content is above the overlay */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Use vh for full viewport height */
+  }
+
+  h1 {
+    text-align: right;
+    margin-bottom: 30px;
+    position: absolute;
+    top: 45px; /* Adjust as needed */
+    left: 35%;
+    color: white;
+    transform: translateX(-50%);
+    font-size: 48px; /* Increase the font size as needed */
+  }
+  h2 {
+    text-align: left;
+    margin-bottom: 30px;
+    position: absolute;
+    top: 1px;/* Adjust as needed */
+    left: 75%;
+    color: white;
+    transform: translateX(-50%);
+    font-size: 70px; /* Increase the font size as needed */
+  }
+
+  h3 {
+    text-align: left;
+    margin-bottom: 100px;
+    position: absolute;
+    top: 150px;/* Adjust as needed */
+    left: 50%;
+    color: white;
+    transform: translateX(-50%);
+    font-size: 24px; /* Increase the font size as needed */
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 20px;
+    border: 3px solid white;
+    border-radius: 5px;
+    margin: 4px;
+    margin-top=50px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  a:hover {
+    background-color: white;
+    color: black;
+  }
+</style>
+</head>
+<body>
+
+<div class="overlay"></div>
+
+<div class="container">
+  <h1>Know more about the family of</h1>
+  <h2>Ramayanam</h2>
+  <h3>Select one of the options to open the family line:</h3></br>
+ <a href="Ramayanam.html">Ramayanam Lineage</a>
+  <a href="Ram.html">Lord Rama Lineage</a>
+  <a href="Sita.html">Lord Sita Lineage</a>
+  <a href="page3.html">Lord Hanuman:not completed</a>
+  <a href="page3.html">King Ravana:not completed</a>
+
+</div>
+
+</body>
+</html>
+
+
